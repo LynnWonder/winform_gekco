@@ -1,4 +1,4 @@
-#  .net winform程序下使用firefox作为Web浏览器
+#  .net winform程序下webBrowser使用firefox内核gekco
 ##tips:
 1. 添加引用：Geckofx-Core、Geckofx-Winforms；
 2. 把xulrunner放在项目的bin目录下；
