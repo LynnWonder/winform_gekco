@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html style="height: 95%; width: 97%; color: #FFFFFF" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+	<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+	 <script type="text/javascript" src="./js/echarts.js"></script>
+     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+     <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=YAUfX2gScWTYgPDyru2dXzXMap0Es1dF"></script>
+</head>
+<script type="text/javascript">
+function print(textValue) {
+     document.getElementById("title").value = textValue;
+	 var strS = "(js向winform回传值)winform与gecko互动测试TESTTESTTESTTESTTEST!!!!!!" ;
+	 return strS;
+}
+var total =0;
+function getTotal(a) {
+      total = a+10+10;
+      return total;
+}
+
+ $(document).ready(function(){
+        //自身要写的jQuery代码
+		$("#btn").click(function(event){
+		alert("hello");
+        event.preventDefault();
+
+		});
+
+    });
+
+</script>
+<body style="height: 100%;width: 100%; margin: 0" >
+	<div id="main" style="height: 100%; width: 100%; border:1px solid #ccc;background:#888888;padding:1%;">
+        
+        <div id="A" style="top:1%;right:2%;height: 28%; width: 27%;border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="B" style="top:1%;right:32%;height: 28%; width: 20%;border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444; position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="Map" style="top:1%;left:2%;height: 59%; width: 40%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;position:absolute;box-shadow:5px 3px 6px #000" ></div>
+        <div id="C" style="top:35%;right:32%;height: 25%; width: 20%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="F" style="top:35%;right:2%;height: 25%; width: 27%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="E" style="bottom:2%;right:2%;height:26%; width: 27%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="D" style="bottom:2%;left:2%;height:26%; width: 20%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="G" style="bottom:2%;right:32%;height:26%; width: 17%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+        <div id="H" style="bottom:2%;left:25%;height:26%; width: 20%; border:0px solid #ccc;padding:1%;margin: 5px 5px 5px 5px;background:#444444;position:absolute;box-shadow:5px 3px 6px #000"></div>
+		
+    </div>
+	 <div style="height: 1%; width: 100%; border:1px solid #ccc;background:#888888;padding:1%;">
+		   <table><tr>
+		   <td><input name="title" id="title" type="text" size="180"></td>
+		   <td><input name="btn" id="btn" type="button" value="OK" size="20"></td>
+		   </tr></table>
+		 </div>
+    <script src="echarts.js"></script>
+    <script src="use_echarts.js"></script>
+ 
+</body>
+</html>
