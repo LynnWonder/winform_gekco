@@ -1,5 +1,5 @@
 #  .net winform程序下webBrowser使用firefox内核gekco
-##tips:
+## tips:
 1. 添加引用：Geckofx-Core、Geckofx-Winforms；
 2. 把xulrunner放在项目的bin目录下；
 3. 如果运行程序报错：“加载程序集错误”
